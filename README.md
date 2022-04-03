@@ -1,0 +1,1 @@
+# landingVanillaJs2
