@@ -36,6 +36,7 @@ html {
 }
 body {
   font-family: 'Circe Regular', sans-serif;
+  overflow-x: hidden;
 }
 p {
   margin: 0;
@@ -1724,4 +1725,8 @@ h4 {
     padding: 3rem 3rem;
     width: 25rem;
   }
+}
+
+.status {
+  text-align: center;
 }

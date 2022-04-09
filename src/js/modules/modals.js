@@ -32,7 +32,6 @@ const modals = () => {
 			});
 
 			close.addEventListener('click', () => {
-				console.log(windows);
 					windows.forEach(item => {
 							item.style.display = 'none';
 					});
