@@ -6,6 +6,8 @@ import checkTextInputs from './modules/checkTextInputs'
 import showMoreStyles from './modules/showMoreStyles'
 import calc from './modules/calc'
 import filter from './modules/filter'
+import showPictures from './modules/showPictures'
+import collapse from './modules/collapse'
 
 document.addEventListener('DOMContentLoaded', () => {
 	'use strict'
@@ -27,4 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	calc('#size', '#material', '#options', '.promocode', '.calc-price')
 
 	filter()
+
+	showPictures('.sizes-block')
+
+	collapse('.accordion-heading')
 })
