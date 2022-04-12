@@ -1281,6 +1281,27 @@ h4 {
   transform: translateX(-50%) !important;
   padding: 3rem 6rem 4rem 6rem;
 }
+
+.pageup {
+  opacity: 0;
+  width: 3em;
+  height: 3em;
+  position: fixed;
+  bottom: 100px;
+  right: 5%;
+  z-index: 30;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 2em;
+  overflow: hidden;
+  transition: 1s all;
+}
+
+.pageup svg {
+
+}
+
 @media (max-width: 1399px) {
   .paints {
     display: none;

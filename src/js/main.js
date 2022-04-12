@@ -8,6 +8,9 @@ import calc from './modules/calc'
 import filter from './modules/filter'
 import showPictures from './modules/showPictures'
 import collapse from './modules/collapse'
+import burger from './modules/burger'
+import scrolling from './modules/scrolling'
+import drop from './modules/drop'
 
 document.addEventListener('DOMContentLoaded', () => {
 	'use strict'
@@ -33,4 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	showPictures('.sizes-block')
 
 	collapse('.accordion-heading')
+
+	burger('.burger-menu', '.burger')
+
+	scrolling('.pageup')
+
+	drop()
 })
